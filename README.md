@@ -1,1 +1,1 @@
-# 💤 Neovim whith LazyVim
+#  Neovim with 💤LazyVim
