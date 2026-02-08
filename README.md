@@ -1,1 +1,1 @@
-# LazyVim Default
+# 💤 LazyVim Default
