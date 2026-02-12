@@ -2,11 +2,22 @@ return {
 	-- add gruvbox
 	{ "ellisonleao/gruvbox.nvim" },
 
+	{
+		"Everblush/nvim",
+		name = "everblush",
+		opts = {
+			transparent_background = false,
+			nvim_tree = {
+				contrast = false,
+			},
+		},
+	},
+
 	-- Configure LazyVim to load gruvbox
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "tokyonight",
+			colorscheme = "everblush",
 		},
 	},
 

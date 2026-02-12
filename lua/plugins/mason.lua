@@ -9,6 +9,9 @@ return {
 		ensure_installed = {
 			"stylua",
 			"shfmt",
+			"java-debug-adapter",
+			"java-test",
+			"jdtls",
 		},
 	},
 	---@param opts MasonSettings | {ensure_installed: string[]}

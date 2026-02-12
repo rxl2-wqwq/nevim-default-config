@@ -130,6 +130,12 @@ return {
 							},
 						},
 					},
+					cssls = {},
+					jdtls = {
+						root_dir = function(fname)
+							return vim.fn.getcwd()
+						end,
+					},
 				},
 			},
 			-- you can do any additional lsp server setup here

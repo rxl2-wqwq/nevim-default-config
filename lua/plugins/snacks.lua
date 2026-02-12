@@ -2,6 +2,7 @@ return {
 	"snacks.nvim",
 	opts = {
 		-- Core features
+		picker = { enabled = false },
 		bigfile = { enabled = true },
 		quickfile = { enabled = true },
 		indent = { enabled = true },
